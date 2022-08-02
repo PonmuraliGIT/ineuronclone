@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Fira+Sans:wght@400;700&family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <!-- <link rel="stylesheet" href="bwstyles.css" /> -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>iNeuron.ai</title>
+    <style></style>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-solid fa-arrow-up"></i>
+    </button>
+    <main class="container">
+      <!-- <ul id="navv">
+        <li>Choose Theme : &nbsp;</li>
+        <li>
+          <a href="#" rel="bwstyles.css" style="color: rgb(202, 201, 201)"
+            >Royal Gray</a
+          >
+        </li>
+        <li><a href="#" rel="styles.css">Cool Blue</a></li>
+      </ul> -->
+
+      <header id="navbar">
+        <div id="navv"><br /></div>
+        <div class="topnav" id="myTopnav">
+          <img src="images/Ineuron.ai.png" alt="" class="logo" />
+
+          <div class="navright">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Courses
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Data Science</a>
+                <a href="#">Big Data</a>
+                <a href="#">Javascript</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                Student
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">One Neuron</a>
+                <a href="#">Job Portal</a>
+                <a href="#">Internship Portal</a>
+                <a href="#">Live Programs</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Hall of fame</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Company
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+                <a href="#">Hackathon</a>
+                <a href="#">FAQ</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Account
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Sign up</a>
+                <a href="#">Sign in</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Theme
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#" class="themeclick" rel="bwstyles.css">Royal Gray</a>
+                <a href="#" class="themeclick" rel="styles.css">Cool Blue</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <a
+            href="javascript:void(0);"
+            style="font-size: 15px"
+            class="icon"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+      </header>
+
+      <section class="hero-section">
+        <div class="hero-section-1">
+          <h3>Learn from the best of industry</h3>
+          <h1>
+            Highest in quality,<br />
+            Affordable in price
+          </h1>
+
+          <p>
+            Digital entrepreneurs, Youtubers and content creators provide
+            affordable courses across technologies.
+          </p>
+          <h4>Learning that makes you ready for job</h4>
+          <p>
+            Over 10k+ students got placed and proved that our courses worked for
+            them. They write their own success story and make us feel rewarded
+          </p>
+          <h4>Hack-A-Thon</h4>
+          <p>
+            Our 24 hour offline coding events such as Hack-a-thons, Job-a-thons
+            and Course-a-thons give participants an opportunity to exhibit their
+            skills and receive prizes for completing courses, or get recruited
+            for their skillset.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn hero-button-1">Explore All</button>
+            <button class="btn hero-button-2">Contact Us</button>
+          </div>
+        </div>
+
+        <div class="hero-section-2">
+          <img src="images/hero-image.png" alt="" />
+        </div>
+      </section>
+      <div class="tech-section">
+        <img
+          src="images/Tech/tech_avengers2.png"
+          class="techavengers"
+          alt="Tech Avengers"
+        />
+      </div>
+
+      <section class="course-section">
+        <h2><span class="underline">W</span>hat you will learn</h2>
+
+        <h4>Live Programs</h4>
+        <p>Get your program with live "instructor led" learning.</p>
+        <div class="course-cards">
+          <div class="course-card">
+            <img src="images/courses/course-1.jpg" alt="DSA FAANG" />
+            <h3>DSA for FAANG preparation with Python and JavaScript</h3>
+            <p>Anurag Tiwari</p>
+            <div class="course-card-price">
+              <span>Rs 4000</span>
+              <button class="btn-small">See More</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="images/courses/course-2.jpg" alt="Facebook Marketing" />
+            <h3>Advance Facebook Marketing Course in Hindi</h3>
+            <p>Amresh Bharti</p>
+            <div class="course-card-price">
+              <span>Rs 3000</span>
+              <button class="btn-small">See More</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="images/courses/course-3.jpg" alt="BIG DATA BOOTCAMP" />
+            <h3>Job Guaranteed Big Data Bootcamp</h3>
+            <p>Shashank Mishra</p>
+            <div class="course-card-price">
+              <span>Rs 17,700</span>
+              <button class="btn-small">See More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quote-section">
+        <h2><span class="underline">P</span>ure Hardwork,No Shortcuts!</h2>
+        <div class="quote-section-1">
+          <div class="quote-section-1-1">
+            <img src="images/icon-1.png" alt="" />
+            <h3>4000+</h3>
+            <strong>Different Courses</strong>
+          </div>
+
+          <div class="quote-section-1-1">
+            <img src="images/icon-2.png" alt="" />
+            <h3>400000+</h3>
+            <strong>Students Enrolled</strong>
+          </div>
+
+          <div class="quote-section-1-1">
+            <img src="images/icon-3.png" alt="" />
+            <h3>10000+</h3>
+            <strong>Successfull Transition</strong>
+          </div>
+        </div>
+      </section>
+      <div class="product-section">
+        <h2><span class="underline">O</span>ur Products</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/Products/product-1.png" alt="" />
+            <h3>Job Portal</h3>
+            <p>
+              Use exceptional templates for a stand-out resume minus the sign up
+              process.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="images/Products/product-2.png" alt="" />
+            <h3>Internship Portal</h3>
+            <p>
+              iNeuron's self-paced internship portal prioritises hands-on
+              training with 570+ internship projects.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="images/Products/product-3.png" alt="" />
+            <h3>Became an affiliate</h3>
+            <p>
+              Explore affiliate marketing opportunities with iNeuron and attain
+              financial freedom.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="images/Products/product-4.png" alt="" />
+            <h3>Hall of fame</h3>
+            <p>
+              Our student placements and 10+ career transitions speak volumes
+              about our courses.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="images/Products/product-5.png" alt="" />
+            <h3>In Blog</h3>
+            <p>
+              Explore all you want about your favourite courses.Lorem ipsum
+              dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="achiever-section partner-section">
+        <h2><span class="underline">O</span>ur Partnered Institutions</h2>
+        <div class="achiever-section-1 partner-section-1">
+          <img
+            src="https://ineuron.ai/images/landing-page/colleges/taxila.svg"
+            alt=""
+          />
+          <img
+            src="https://ineuron.ai/images/landing-page/colleges/vit.svg"
+            alt=""
+          />
+          <img
+            src="https://ineuron.ai/images/landing-page/colleges/keit.svg"
+            alt=""
+          />
+          <img
+            src="https://ineuron.ai/images/landing-page/colleges/gim.svg"
+            alt=""
+          />
+          <img
+            src="https://ineuron.ai/images/landing-page/colleges/malnad-college.svg"
+            alt=""
+          />
+          <!-- <img src="images/work/robosoft.png" alt="" /> -->
+        </div>
+      </section>
+      <section class="achiever-section">
+        <h2><span class="underline">H</span>ackathon Institutions</h2>
+        <div class="achiever-section-1">
+          <!-- <img src="images/hackathon/musigma.png" alt="" /> -->
+          <img src="images/hackathon/github.png" alt="" />
+          <img src="images/hackathon/nvidia.png" alt="" />
+
+          <img src="images/hackathon/learnyst.png" alt="" />
+          <img src="images/hackathon/jetbrains.png" alt="" />
+
+          <!-- <img src="images/work/robosoft.png" alt="" /> -->
+        </div>
+      </section>
+      <section class="hof-section">
+        <h2><span class="underline">H</span>all Of Fame</h2>
+        <div class="hof-1">
+          <div class="hof-card">
+            <img src="images/hof/hof-1.jpeg" alt="" />
+            <h3>Jay Prakash Bind</h3>
+            <strong>Program Associate, Wells Fargo</strong>
+            <p>
+              My name is Jay Prakash Bind completed my B. Tech Computer Science
+              and Engineering from Bundelkhand University, Jhansi...
+            </p>
+            <button class="btn-small">Know More</button>
+          </div>
+          <div class="hof-card">
+            <img src="images/hof/hof-2.jpeg" alt="" />
+            <h3>Shrivatsa G</h3>
+            <strong>Trainee software developer, ECOLAB</strong>
+            <p>
+              A few days back I was scheduled for an interview at ECOLABS.
+              Thanks to Naveen Reddy sir and his wonderful Youtube channel..
+            </p>
+            <button class="btn-small">Know More</button>
+          </div>
+          <div class="hof-card">
+            <img src="images/hof/hof-3.jpeg" alt="" />
+            <h3>Aakash B</h3>
+            <strong>SDE 1, Amazon</strong>
+            <p>
+              I was following Krish Sir YouTube channel for more than 2-3 year.
+              I learnt Machine Learning and Deep Learning from him Lorem ipsum
+              dolor sit amet...
+            </p>
+            <button class="btn-small">Know More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="achiever-section">
+        <h2><span class="underline">O</span>ur Achiever’s Work with</h2>
+        <div class="achiever-section-1">
+          <img src="images/work/geekyants.png" alt="" />
+          <img src="images/work/informatica.png" alt="" />
+          <img src="images/work/innova.png" alt="" />
+          <img src="images/work/livspace.png" alt="" />
+          <!-- <img src="images/work/robosoft.png" alt="" /> -->
+        </div>
+      </section>
+      <section class="footer-section">
+        <div class="logo-section">
+          <img src="images/ineuron-logo-white.png" alt="" />
+          <p>
+            17th Floor Tower A, <br />Brigade Signature Towers,
+            Sannatammanahalli,<br />
+            Bengaluru, Karnataka 562129.
+          </p>
+        </div>
+        <ul>
+          <li>Menu</li>
+          <li>About us</li>
+          <li>Hackathon</li>
+          <li>Job Guarantee</li>
+          <li>Job Assistance</li>
+        </ul>
+        <ul>
+          <li>Products</li>
+          <li>Job Portal</li>
+          <li>Internship Portal</li>
+          <li>Become an Affiliate</li>
+          <li>Hall of fame</li>
+          <li>In Blog</li>
+        </ul>
+        <ul>
+          <li>Overview</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+          <li>FAQ</li>
+        </ul>
+        <ul>
+          <li>&nbsp;Email us</li>
+          <li>contact@ineuron.ai</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+<script src="script.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+
+<script>
+  $(document).ready(function () {
+    $("#navv li a").click(function () {
+      $("link").attr("href", $(this).attr("rel"));
+      return false;
+    });
+
+    $(".themeclick").click(function () {
+      $("link").attr("href", $(this).attr("rel"));
+      if ($(this).attr("rel") == "styles.css")
+        $(".techavengers").attr("src", "images/Tech/tech_avengers2.png");
+      else $(".techavengers").attr("src", "images/Tech/tech_avengers.png");
+      return false;
+    });
+  });
+</script>
+
+<script>
+  //Get the button
+</script>
