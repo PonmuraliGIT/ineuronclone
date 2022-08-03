@@ -759,6 +759,11 @@ h4 {
   /* box-shadow: -1px 0px 19px 0px rgba(115, 115, 115, 0.75); */
   box-shadow: -1px 0px 19px 0px rgba(186, 184, 184, 0.75);
   border-radius: 8px;
+  transition: 0.5s;
+}
+.course-card:hover{
+  border-top: 4px solid #356eff;
+  transform: translateY(-20px);
 }
 
 .course-card img {
@@ -1031,7 +1036,13 @@ h4 {
   justify-content: center;
   align-items: center;
   box-shadow: -1px 0px 19px 0px rgba(186, 184, 184, 0.75);
+transition: 0.5s;
 }
+.product-card:hover{
+  border-top: 4px solid #356eff;
+  transform: translateY(-20px);
+}
+
 .product-card h3 {
   color: #253472;
   font-weight: bold;
@@ -1194,6 +1205,11 @@ h4 {
   width: 20%;
   padding: 24px;
   border-radius: 16px;
+  transition: 0.5s;
+}
+.hof-card:hover{
+  border-top: 4px solid #356eff;
+  transform: translateY(-20px);
 }
 
 .hof-card img {
