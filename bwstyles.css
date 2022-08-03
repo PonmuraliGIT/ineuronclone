@@ -1066,9 +1066,11 @@ h4 {
 .product-card img {
   width: 64px;
   opacity: 50%;
+  transition: 0.5s;
 }
 .product-card img:hover {
   opacity: 1;
+  transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);  
 }
 .product-card p {
   font-size: 1rem;
