@@ -177,17 +177,6 @@ p {
   flex-direction: column;
 }
 /* HEADER SECTION START  */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-.sticky + .hero-section {
-  margin-top: 140px;
-}
-
 @keyframes cube {
   from {
       transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -262,6 +251,16 @@ p {
   left: 37vw;
   top: 29vh;
   border-color: #356eff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sticky + .hero-section {
+  margin-top: 100px;
 }
 .logo {
   width: 200px;
@@ -488,8 +487,11 @@ p {
 /* HEADER SECTION END  */
 
 /* HERO SECTION START  */
+/* ========================= */
+
+
 .hero-section {
-  margin: 24px;
+  margin: 0 24px 24px 24px;
   display: grid;
   /* column-gap: 16px; */
   grid-template-columns: 2fr 3fr;
@@ -574,8 +576,8 @@ h4 {
   border: 1px solid #063831;
 }
 .hero-section-2 {
-  /*background-image: url("images/hero-img-bg1.jpg");*/
-   background-color: #356effb7;
+  /* background-image: url("images/hero-img-bg1.jpg"); */
+  background-color: #356effb7;
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
@@ -680,7 +682,7 @@ h4 {
   .hero-section-1 h3 {
     font-size: 1.5rem;
 
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   .hero-section-2 {
     /* background-image: none; */
@@ -727,7 +729,7 @@ h4 {
   }
   .hero-section-1 h3 {
     font-size: 1.2rem;
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   .btn {
     padding: 6px 8px;
@@ -769,7 +771,7 @@ h4 {
   }
   .hero-section-1 h3 {
     font-size: 1.5rem;
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   .btn {
     padding: 12px 24px;
@@ -846,7 +848,9 @@ h4 {
 .course-card img {
   width: 100%;
   border-radius: 8px;
+
 }
+
 
 .course-card h3 {
   margin: 24px 0;
@@ -992,7 +996,7 @@ h4 {
 
 .quote-section {
   padding: 48px 0px;
-  position:relative;
+position:relative;
   /* margin: 48px 0; */
   display: flex;
   flex-direction: column;
@@ -1026,7 +1030,9 @@ h4 {
 }
 .quote-section-1-1 img {
   width: 50%;
+ 
 }
+
 .quote-section-1-1 strong {
   font-size: 1.2rem;
   color: #253472;
@@ -1297,7 +1303,9 @@ transition: 0.5s;
   margin-top: 32px;
   border-radius: 50%;
   width: 50%;
+ 
 }
+
 
 .hof-card h3 {
   font-size: 1.5rem;
@@ -1434,6 +1442,9 @@ transition: 0.5s;
   margin-bottom: 16px;
   font-size: 1rem;
 }
+
+
+
 .social {
   width: 140px;
   text-align: left;
