@@ -574,7 +574,8 @@ h4 {
   border: 1px solid #063831;
 }
 .hero-section-2 {
-  background-image: url("images/hero-img-bg1.jpg");
+  /*background-image: url("images/hero-img-bg1.jpg");*/
+   background-color: #356effb7;
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
