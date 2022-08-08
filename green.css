@@ -330,7 +330,7 @@ p {
   font-weight: bold;
   border: none;
   outline: none;
-  color: var(--primary-color);
+   color: #2c2c2c;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
