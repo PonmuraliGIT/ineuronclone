@@ -373,9 +373,9 @@ p {
     display: none;
   }
   .topnav a.icon {
-   float: right;
-    display: block;
+    float: right;
     margin: 16px 24px 0 0;
+    display: block;
   }
 
   .topnav.responsive {
@@ -910,8 +910,8 @@ h4 {
     flex-direction: column;
     row-gap: 12px;
   }
-    .course-section h4 {
-    font-size:1.25rem;
+  .course-section h4 {
+    font-size:1.2rem;
   }
   .course-card {
     padding: 8px;
@@ -1116,7 +1116,7 @@ h4 {
     justify-content: space-around;
     width: 100%;
   }
-     .quote-section-1-1 img {
+  .quote-section-1-1 img {
     width: 20%;
   }
 }
@@ -1311,6 +1311,7 @@ h4 {
   background-repeat: no-repeat;
 }
 
+
 @media only screen and (max-width: 600px) {
   .tech-section {
     display: flex;
@@ -1321,7 +1322,13 @@ h4 {
   .tech-section img {
     width: 90%;
   }
-
+}
+/*
+@media only screen and (min-width: 600px) {
+  .tech-section img {
+    width: 90%;
+  }
+}*/
 /* Tech Section END  */
 
 /*Hall of Fame Section Start*/
