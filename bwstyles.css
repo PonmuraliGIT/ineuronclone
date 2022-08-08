@@ -938,6 +938,8 @@ h4 {
   }
   .course-card-price {
     margin-top: 16px;
+    flex-direction: column;
+    row-gap:1rem;
   }
 
   .course-card-price span {
