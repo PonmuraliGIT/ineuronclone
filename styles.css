@@ -1058,13 +1058,16 @@ position:relative;
     justify-content: space-around;
     width: 100%;
   }
+     .quote-section-1-1 img {
+    width: 20%;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .quote-section-1-1 h3 {
     font-size: 2rem;
   }
   .quote-section-1-1 img {
-    width: 30%;
+    width: 40%;
   }
   .quote-section-1-1 strong {
     font-size: 1rem;
@@ -1079,7 +1082,7 @@ position:relative;
     font-size: 1.5rem;
   }
   .quote-section-1-1 img {
-    width: 30%;
+    width: 40%;
   }
   .quote-section-1-1 strong {
     font-size: 0.8rem;
@@ -1093,7 +1096,7 @@ position:relative;
     font-size: 1.75rem;
   }
   .quote-section-1-1 img {
-    width: 50%;
+    width: 40%;
   }
   .quote-section-1-1 strong {
     font-size: 1rem;
