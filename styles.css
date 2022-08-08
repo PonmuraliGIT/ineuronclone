@@ -148,7 +148,13 @@ Reset End
 General Start
 ================================
 */
-
+:root {
+  --primary-color: #356eff;
+  /* --primary-color: #3d9eb9; */
+  --secondary-color :#ff9534;
+  /* 3d9eb9 */
+  
+}
 *,
 *:before,
 *:after {
@@ -168,7 +174,7 @@ p {
 }
 
 #navv {
-  background-color: #356eff;
+  background-color: var(--primary-color); 
   padding: 2px;
 }
 
@@ -206,7 +212,8 @@ p {
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #356eff;
+  border: solid 1px var(--primary-color);
+ 
   color: transparent;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -229,28 +236,33 @@ p {
   animation-delay: 4s;
   left: 52vw;
   top: 64vh;
-  border-color: #356eff;
+  border-color: var(--primary-color);
+ 
+  
 }
 
 .background li:nth-child(3) {
   animation-delay: 6s;
   left: 71vw;
   top: 49vh;
-  border-color: #356eff;
+  border-color: var(--primary-color);
+  
 }
 
 .background li:nth-child(4) {
   animation-delay: 8s;
   left: 5vw;
   top: 83vh;
-  border-color: #356eff;
+  border-color: var(--primary-color);
+  
 }
 
 .background li:nth-child(5) {
   animation-delay: 10s;
   left: 37vw;
   top: 29vh;
-  border-color: #356eff;
+  border-color: var(--primary-color);
+ 
 }
 .sticky {
   position: fixed;
@@ -277,7 +289,8 @@ p {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #356eff;
+  background-color: var(--primary-color);
+ 
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -285,7 +298,7 @@ p {
 }
 
 #myBtn:hover {
-  background-color: #ff9534;
+  background-color: var(--secondary-color);
 }
 .navright {
   display: inline-block;
@@ -353,11 +366,11 @@ p {
 
 /* .topnav a:hover,
 .dropdown:hover .dropbtn {
-  border-bottom: 1px solid #356eff;
+  border-bottom: 1px solid var(--primary-color);
 } */
 .dropdown-content a:first-child {
   border-radius: 16px;
-  border-top: 4px solid #356eff;
+  border-top: 4px solid var(--primary-color);
 }
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -502,7 +515,7 @@ p {
   row-gap: 16px;
 }
 .hero-section-1 h3 {
-  color: #ff9534;
+  color: var(--secondary-color);
   color: #063831;
   font-size: 2rem;
   font-weight: bold;
@@ -516,18 +529,18 @@ h2 {
 }
 h1 {
   font-size: 4rem;
-  color: #356eff;
+  color: var(--primary-color);
 }
 h2 {
   font-size: 2.5rem;
   color: #253472;
-  color: #356eff;
+  color: var(--primary-color);
 }
 h3{
   font-size:2rem;
 }
 h4 {
-  color: #ff9534;
+  color: var(--secondary-color);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -563,13 +576,13 @@ h4 {
   cursor: pointer;
 }
 .hero-button-1 {
-  background: linear-gradient(4deg, #ff9534, #ff7c03);
+  background: linear-gradient(4deg, var(--secondary-color), #ff7c03);
   color: white;
   border: none;
 }
 
 .hero-button-1:hover {
-  background: linear-gradient(4deg, #ff7c03, #ff9534);
+  background: linear-gradient(4deg, #ff7c03, var(--secondary-color));
 }
 
 .hero-button-2 {
@@ -579,7 +592,7 @@ h4 {
 }
 .hero-section-2 {
   /* background-image: url("images/hero-img-bg1.jpg"); */
-  background-color: #356effb7;
+  background-color: var(--primary-color);
   background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
@@ -610,15 +623,15 @@ h4 {
   }
   h1 {
     font-size: 2rem;
-    color: #356eff;
+    color: var(--primary-color);
   }
   h2 {
     font-size: 1.5rem;
     color: #253472;
-    color: #356eff;
+    color: var(--primary-color);
   }
   h4 {
-    color: #ff9534;
+    color: var(--secondary-color);
     font-size: 1rem;
     font-weight: 600;
   }
@@ -662,16 +675,16 @@ h4 {
   }
   h1 {
     font-size: 2.5rem;
-    color: #356eff;
+    color: var(--primary-color);
     /* color: #253472; */
   }
   h2 {
     font-size: 1.75rem;
     color: #253472;
-    color: #356eff;
+    color: var(--primary-color);
   }
   h4 {
-    color: #ff9534;
+    color: var(--secondary-color);
     font-size: 1.25rem;
     font-weight: 600;
   }
@@ -800,7 +813,7 @@ h4 {
 
 /* Course SECTION Start  */
 .underline {
-  border-bottom: 6px solid #ff9534;
+  border-bottom: 6px solid var(--secondary-color);
 }
 .course-section {
   margin: 48px 0;
@@ -845,7 +858,7 @@ h4 {
   transition: 0.5s;
 }
 .course-card:hover{
-  border-top: 4px solid #356eff;
+  border-top: 4px solid var(--primary-color);
   transform: translateY(-20px);
 }
 
@@ -882,8 +895,8 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 .course-card-price button {
-  /* background-color: #356eff; */
-  background: linear-gradient(4deg, #1355fa, #356eff);
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(4deg, #1355fa, var(--primary-color));
   border: none;
   color: white;
 }
@@ -1138,7 +1151,7 @@ position:relative;
 transition: 0.5s;
 }
 .product-card:hover{
-  border-top: 4px solid #356eff;
+  border-top: 4px solid var(--primary-color);
   transform: translateY(-20px);
 }
 
@@ -1247,9 +1260,12 @@ transition: 0.5s;
   justify-content: center;
   align-items: center;
   padding: 48px 0;
-  background-image: url("images/Tech/bg-pattern.jpg");
+  /* background-image: url("images/Tech/bg-pattern.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; B7E8EB*/
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%,#dcdcdc 35%, white 100%);
+  overflow: hidden;
+  position:relative;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1306,7 +1322,7 @@ transition: 0.5s;
   transition: 0.5s;
 }
 .hof-card:hover{
-  border-top: 4px solid #356eff;
+  border-top: 4px solid var(--primary-color);
   transform: translateY(-20px);
 }
 
@@ -1332,8 +1348,8 @@ transition: 0.5s;
 }
 
 .hof-card button {
-  /* background-color: #356eff; */
-  background: linear-gradient(4deg, #1355fa, #356eff);
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(4deg, #1355fa, var(--primary-color));
   border: none;
   color: white;
 }
@@ -1345,7 +1361,7 @@ transition: 0.5s;
 .hof-card strong {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #ff9534;
+  color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -1427,7 +1443,57 @@ transition: 0.5s;
   /* #253472; */
   color: #fcfdff;
   font-family: "Roboto", sans-serif;
+  position:relative;
 }
+.wave-section {
+  position:relative;
+  background-color: #202021;
+  padding:64px;
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #3d9eb9;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+
 .logo-section img {
   width: 80px;
   margin-bottom: 16px;
@@ -1441,13 +1507,13 @@ transition: 0.5s;
   cursor: pointer;
 }
 .footer-section li:first-child {
-  color: #356eff;
+  color: var(--primary-color);
   margin-bottom: 16px;
   font-size: 1rem;
   font-weight: 700;
 }
 .footer-section li:first-child:hover {
-  color: #356effb5;
+  color: var(--primary-color)b5;
 }
 .footer-section li {
   margin-bottom: 16px;
