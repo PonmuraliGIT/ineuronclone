@@ -375,9 +375,8 @@ p {
   }
   .topnav a.icon {
     float: right;
-
     display: block;
-    margin-right: 24px;
+    margin: 16px 24px 0 0;
   }
 
   .topnav.responsive {
